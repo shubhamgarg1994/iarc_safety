@@ -1,0 +1,7 @@
+- git:
+    local-name: iarc7_msgs
+    uri: https://github.com/Pitt-RAS/iarc7_msgs.git
+- git:
+    local-name: bond_core
+    uri: https://github.com/ros/bond_core
+    version: ca90ed2

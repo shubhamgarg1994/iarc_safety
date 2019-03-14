@@ -1,0 +1,7 @@
+<launch>
+    <arg name="bond_id_namespace" default="safety_bonds" />
+
+    <node name="iarc7_safety_node" pkg="iarc7_safety" type="iarc7_safety_node">
+        <param name="bond_id_namespace" value="$(arg bond_id_namespace)" />
+    </node>
+</launch>
